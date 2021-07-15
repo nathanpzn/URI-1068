@@ -36,7 +36,7 @@ int desempilha_enc_C(celula *t)
 	}
 }
 
-int bemFormada(char *t)
+int BalancParenteses(char *t)
 {
 	celula *lista;
 	char c;
@@ -71,7 +71,7 @@ int main() {
 
 	while(scanf("%s", cadeia) != EOF) {
 		
-		if(bemFormada(cadeia) == 0)
+		if(alancParenteses(cadeia) == 0)
 			printf("incorrect\n");
 		else
 			printf("correct\n");
