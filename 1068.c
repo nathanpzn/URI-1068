@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 #define MAX 1001
 
 /* Balanço de Parênteses - Pilhas - URI 1068 */
