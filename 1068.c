@@ -70,7 +70,7 @@ int main() {
 
 	while(scanf("%s", cadeia) != EOF) {
 		
-		if(alancParenteses(cadeia) == 0)
+		if(BalancParenteses(cadeia) == 0)
 			printf("incorrect\n");
 		else
 			printf("correct\n");
